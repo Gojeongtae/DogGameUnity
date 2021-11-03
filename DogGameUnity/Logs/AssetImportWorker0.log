@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< Updated upstream
 OS: 'Windows 10 Education; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32176 MB
+=======
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'ko' Physical Memory: 65327 MB
+>>>>>>> Stashed changes
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,6 +15,7 @@ C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 C:/Users/go/Documents/GitHub/DogGameUnity/DogGameUnity
 -logFile
 Logs/AssetImportWorker0.log
@@ -31,10 +36,33 @@ Direct3D:
     Vendor:   
     VRAM:     8044 MB
     Driver:   27.21.14.6235
+=======
+C:/Users/KOCCA30/Desktop/Unity_Project/DogGame/DogGameUnity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53697
+Successfully changed project path to: C:/Users/KOCCA30/Desktop/Unity_Project/DogGame/DogGameUnity
+C:/Users/KOCCA30/Desktop/Unity_Project/DogGame/DogGameUnity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KOCCA30/Desktop/Unity_Project/DogGame/DogGameUnity/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e04)
+    Vendor:   
+    VRAM:     11048 MB
+    Driver:   30.0.14.7141
+>>>>>>> Stashed changes
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +76,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1252ms)
 		BeginReloadAssembly (39ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001787 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1874ms)
+		BeginReloadAssembly (49ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (290ms)
 			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -67,12 +111,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (55ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
+=======
+		EndReloadAssembly (434ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002145 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -118,6 +179,53 @@ System memory in use after: 95.8 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
 Total: 3.107100 ms (FindLiveObjects: 0.191400 ms CreateObjectMapping: 0.073800 ms MarkObjects: 2.783300 ms  DeleteObjects: 0.057500 ms)
+=======
+Registered in 0.003077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.2 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 6.075300 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.209700 ms MarkObjects: 5.248700 ms  DeleteObjects: 0.120900 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,6 +241,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Bolt 2D JellyFarm VE2/App Icon.png
   artifactKey: Guid(2d5a187c329e5f840b248842b9743eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+<<<<<<< Updated upstream
 Start importing Assets/Bolt 2D JellyFarm VE2/App Icon.png using Guid(2d5a187c329e5f840b248842b9743eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d889912a41e91a5aca43988a29a2dc') in 0.086874 seconds 
   Import took 0.089701 seconds .
 
@@ -687,10 +796,151 @@ Received Import Request.
   artifactKey: Guid(22c40042f217d6646b065d1d78f20f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/DogScene.unity using Guid(22c40042f217d6646b065d1d78f20f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213b72a8b49d041ad76401acecb1a3e3') in 0.005761 seconds 
   Import took 0.008779 seconds .
+=======
+Start importing Assets/Bolt 2D JellyFarm VE2/App Icon.png using Guid(2d5a187c329e5f840b248842b9743eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90974472af978022cdfe521b8c7712b4') in 0.173971 seconds 
+  Import took 0.180051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Readme.asset
+  artifactKey: Guid(fb5a1caba0624ad4b88a57dcc2c48c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Readme.asset using Guid(fb5a1caba0624ad4b88a57dcc2c48c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153df78a0f1856239b03b0edb50203be') in 0.014645 seconds 
+  Import took 0.018483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.196545 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/ReadMe
+  artifactKey: Guid(0881af60f74d1154184c0cbe59d914f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/ReadMe using Guid(0881af60f74d1154184c0cbe59d914f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b451ec3e9c0d878623ae90de1d5cf43') in 0.013473 seconds 
+  Import took 0.020033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014618 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/ReadMe/Icon.png
+  artifactKey: Guid(6b65cc6246bbfcf4fa5162a5baf45f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/ReadMe/Icon.png using Guid(6b65cc6246bbfcf4fa5162a5baf45f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ce46db61ad09bd8c714a4d6aa32a56') in 0.027830 seconds 
+  Import took 0.035355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609759 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/ReadMe/Scripts
+  artifactKey: Guid(f5e91e2a890af8341a69b5cfabe0ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/ReadMe/Scripts using Guid(f5e91e2a890af8341a69b5cfabe0ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c311c93f87e5ad152579d838d83bd0') in 0.008654 seconds 
+  Import took 0.013379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.952143 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Particles/Shin Dust.prefab
+  artifactKey: Guid(31c8c27dfb42da54e9548d06b9d705f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Particles/Shin Dust.prefab using Guid(31c8c27dfb42da54e9548d06b9d705f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ae5c74b1e6648ac281500cd8b57cc5') in 0.131988 seconds 
+  Import took 0.136959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.719232 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/BGM.wav
+  artifactKey: Guid(fbd50b6f750f01a42a40ead806f44a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/BGM.wav using Guid(fbd50b6f750f01a42a40ead806f44a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74fec9a2448eb2e1acf52d2d66213a') in 0.148413 seconds 
+  Import took 0.152648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Sell.wav
+  artifactKey: Guid(1117d5f41aab9fd4bb7edf12579a2fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Sell.wav using Guid(1117d5f41aab9fd4bb7edf12579a2fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664358805241eeb124e4f4ab7402393a') in 0.028658 seconds 
+  Import took 0.032397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Clear.wav
+  artifactKey: Guid(3b7cea2252b4b6b45bab4864f9faeef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Clear.wav using Guid(3b7cea2252b4b6b45bab4864f9faeef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12e23936d9236fc5a99a47abfa931bd') in 0.044338 seconds 
+  Import took 0.050055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Pause Out.wav
+  artifactKey: Guid(2fc58d986242aa845b0c76cfcba21fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Pause Out.wav using Guid(2fc58d986242aa845b0c76cfcba21fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae572d1a9179410b77b02e6f74b7e459') in 0.041546 seconds 
+  Import took 0.047891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Grow.wav
+  artifactKey: Guid(228a414c02aae104093ef692ae2bae7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Grow.wav using Guid(228a414c02aae104093ef692ae2bae7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3d89b32bb098af7059ec90cd367094') in 0.031865 seconds 
+  Import took 0.035327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Button.wav
+  artifactKey: Guid(768876ef01ca30043a665d0f8f9a5a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Button.wav using Guid(768876ef01ca30043a665d0f8f9a5a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec669ac279c65bda72dd428ad467291') in 0.036290 seconds 
+  Import took 0.040022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Unlock.wav
+  artifactKey: Guid(dc19f642807b5bc4faef18b20134d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Unlock.wav using Guid(dc19f642807b5bc4faef18b20134d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d272f6eaed6d82a7f84abd267e7086') in 0.036917 seconds 
+  Import took 0.042038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Pause In.wav
+  artifactKey: Guid(d46fc59147b0a984db39e2091afb865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Pause In.wav using Guid(d46fc59147b0a984db39e2091afb865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a76074132612c2717f314bed38369c5') in 0.029864 seconds 
+  Import took 0.036540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Touch.wav
+  artifactKey: Guid(b2339d42d71ef8646b214a6c12e95d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Touch.wav using Guid(b2339d42d71ef8646b214a6c12e95d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d6f270d53772aafb6b38172615a10a') in 0.027156 seconds 
+  Import took 0.034169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Buy.wav
+  artifactKey: Guid(d419044f4528c924c8246806ad0bfb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Buy.wav using Guid(d419044f4528c924c8246806ad0bfb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b00f947ca260f11ecc88d0bfeef1a74') in 0.025315 seconds 
+  Import took 0.029192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Bolt 2D JellyFarm VE2/Audio/Fail.wav
+  artifactKey: Guid(2d77a98d162c5ab45b0b5a457ec644fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bolt 2D JellyFarm VE2/Audio/Fail.wav using Guid(2d77a98d162c5ab45b0b5a457ec644fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51adde5ca7762e51faf359a152dce604') in 0.017902 seconds 
+  Import took 0.021899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.684033 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.009026 seconds 
+  Import took 0.023506 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.002250 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -701,10 +951,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (707ms)
 		BeginReloadAssembly (95ms)
+=======
+Registered in 0.008660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (125ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (30ms)
 		EndReloadAssembly (568ms)
 			LoadAssemblies (63ms)
@@ -789,6 +1052,36 @@ System memory in use after: 98.8 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2620.
 Total: 3.000000 ms (FindLiveObjects: 0.245800 ms CreateObjectMapping: 0.093700 ms MarkObjects: 2.641300 ms  DeleteObjects: 0.016900 ms)
+=======
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.7 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 3.680800 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.056700 ms MarkObjects: 3.288500 ms  DeleteObjects: 0.032700 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -802,6 +1095,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 116.748148 seconds.
   path: Assets/Bolt 2D JellyFarm VE2/Animations/Idle1.anim
   artifactKey: Guid(78e4056d535149a42869d72bb6a38cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1752,4 +2046,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  Time since last request: 678.085018 seconds.
+  path: Assets/Scenes/DogScene.unity
+  artifactKey: Guid(22c40042f217d6646b065d1d78f20f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DogScene.unity using Guid(22c40042f217d6646b065d1d78f20f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c5aa2a29af6616c3a2765ff6d80a21') in 0.032116 seconds 
+  Import took 0.035837 seconds .
+
+>>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
