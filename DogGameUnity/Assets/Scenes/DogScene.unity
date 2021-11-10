@@ -325,10 +325,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c4bf0e53334c04ea573e28812df1ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jellyGoldList: 64000000c8000000f4010000e8030000dc050000d0070000b80b0000881300004c1d000010270000a861000050c30000
   PointList:
   - {x: -3, y: -1, z: -1}
   - {x: 0, y: 0, z: 0}
   - {x: 3, y: -1, z: -1}
+  LevelAc:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &85800974
 Transform:
   m_ObjectHideFlags: 0
@@ -1726,11 +1731,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"TopLeft","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BottomRight","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Manager","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"TopLeft","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BottomRight","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Manager","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Camera","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 603456452}
     - {fileID: 1743604034}
     - {fileID: 85800972}
+    - {fileID: 332329572}
 --- !u!4 &1161009124
 Transform:
   m_ObjectHideFlags: 0
@@ -2525,7 +2531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"ID","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"SpeedX","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedY","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ID","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Level","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Exp","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedX","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"SpeedY","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!95 &1929152749
 Animator:
